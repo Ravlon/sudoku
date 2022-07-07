@@ -9,7 +9,7 @@ def main():
         unsolved = unsolved
         if check_integrity(unsolved):
             solution = bruteforce(unsolved)
-            
+            print(f"Solution of sudoku is :{solution}") 
         else:
             print("Invalid sudoku, enter valid sudoku")
     #retrieve unsolved sudoku array
